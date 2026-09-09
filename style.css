@@ -46,6 +46,17 @@ body {
   display: flex;
   gap: 40px;
 }
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+.logo i {
+  font-size: 40px;
+}
+.menu {
+  font-size: 35px;
+}
+
 .hero {
   height: 60%;
   overflow: hidden;
