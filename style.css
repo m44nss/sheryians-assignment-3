@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  body {
+    margin: 0;
+
+    background:
+      radial-gradient(
+        circle at 85% 20%,
+        rgba(91, 27, 160, 0.5),
+        transparent 30%
+      ),
+      radial-gradient(
+        circle at 20% 80%,
+        rgba(230, 0, 80, 0.5),
+        transparent 35%
+      ),
+      linear-gradient(135deg, #160b12, #28102d 45%, #210b3d 75%, #e00058);
+  }
+  color: white;
+  padding: 25px 60px;
+}
+
+.page {
+  min-height: 100vh;
+  padding: 25px 60px;
+}
+
+.navbar {
+  padding: 0 35px;
+  height: 10%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-links {
+  display: flex;
+  gap: 40px;
+}
+.hero {
+  height: 60%;
+  overflow: hidden;
+}
+.hero-content {
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.hero-text {
+  width: 45%;
+}
+.hero-text img {
+  height: 450px;
+  margin-top: -80px;
+  margin-bottom: -100px;
+}
+
+.hero-image {
+  width: 55%;
+}
+
+.hero-image img {
+  margin: 0 100px;
+  width: 600px;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+.buttons i {
+  font-size: 25px;
+}
+
+.buttons button {
+  height: 42px;
+  padding: 0 35px;
+
+  border-radius: 7px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  font-size: 13px;
+  font-weight: 500;
+
+  cursor: pointer;
+}
+.play-btn1 {
+  border: none;
+
+  color: white;
+
+  background: linear-gradient(90deg, #e50068, #e86b0b);
+}
+.trailer-btn {
+  color: white;
+
+  background: transparent;
+
+  border: 1px solid #c20a60;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+  gap: 15px;
+}
+.card {
+  position: relative;
+  overflow: hidden;
+
+  border-radius: 12px;
+}
+
+.card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+.play-btn {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+
+  width: 30px;
+  height: 30px;
+
+  border: none;
+  border-radius: 50%;
+}
+
+.play-btn i {
+  font-size: 22px;
+}
